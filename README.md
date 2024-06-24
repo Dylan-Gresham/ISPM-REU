@@ -22,7 +22,7 @@ Very similar to `cpu_only` except the previous chats are kept track of and passe
 
 ## cpu_vs_gpu.ipynb
 
-An incomplete Jupyter notebook where I attempted to run inference on both the GPU and CPU to compare runtimes. I was able to eventually finish the file on a different device and just forgot to push the changes. I'll do so ASAP.
+A Jupyter notebook where inference is run on both the GPU and CPU to compare runtimes.
 
 ## llagua2-llama3.ipynb
 
