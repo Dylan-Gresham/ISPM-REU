@@ -10,7 +10,7 @@
 
 # The commands to set the environment variables are:
 
-# - `$env:CMAKE_ARGS="-DLLAMA_CUBLAS=on"`
+# - `$env:CMAKE_ARGS="-DDGGML_CUDA=on"`
 # - `$env:FORCE_CMAKE=1`
 # - `$env:CUDACXX="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v<version_number>\bin\nvcc.exe"`
 #   - Change `<version_number>` to whichever version of the CUDA toolkit you have installed.
@@ -22,7 +22,7 @@
 
 # The commands to set the environment variables are:
 
-# - `export CMAKE_ARGS="-DLLAMA_CUBLAS=on"`
+# - `export CMAKE_ARGS="-DDGGML_CUDA=on"`
 # - `export FORCE_CMAKE=1`
 # - `export CUDACXX="<path_to_nvcc_executable>"`
 #   - Where `<path_to_nvcc_executable>` is your installation path to the 
