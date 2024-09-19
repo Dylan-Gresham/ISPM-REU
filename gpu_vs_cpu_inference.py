@@ -1,5 +1,5 @@
 # Most importantly, make sure you're in a Python virtual environment first, have
-# a Nvidia GPU, and have the CUDA toolkit installed.
+# an Nvidia GPU, and have the CUDA toolkit installed.
 
 # Prior to installing `llama-cpp-python`, we'll need to do some extra steps. All
 # you'll need to do is set some additional CLI environment variables before 
@@ -10,7 +10,7 @@
 
 # The commands to set the environment variables are:
 
-# - `$env:CMAKE_ARGS="-DDGGML_CUDA=on"`
+# - `$env:CMAKE_ARGS="-DGGML_CUDA=on"`
 # - `$env:FORCE_CMAKE=1`
 # - `$env:CUDACXX="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v<version_number>\bin\nvcc.exe"`
 #   - Change `<version_number>` to whichever version of the CUDA toolkit you have installed.
@@ -22,7 +22,7 @@
 
 # The commands to set the environment variables are:
 
-# - `export CMAKE_ARGS="-DDGGML_CUDA=on"`
+# - `export CMAKE_ARGS="-DGGML_CUDA=on"`
 # - `export FORCE_CMAKE=1`
 # - `export CUDACXX="<path_to_nvcc_executable>"`
 #   - Where `<path_to_nvcc_executable>` is your installation path to the 
@@ -53,7 +53,7 @@
 
 # 1. Download [git](https://git-scm.com/downloads) if you don't already have it 
 #    installed.
-#    1. Setup your git account and verify that you're able to clone a private 
+#    1. Set up your git account and verify that you're able to clone a private
 #       repo (doesn't matter if the repo actually has anything in it, just need 
 #       to make sure that you're able to use git properly).
 #    2. Follow the git-lfs install guide 

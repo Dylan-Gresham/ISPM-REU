@@ -1,17 +1,18 @@
 # Required libraries:
 # llama-cpp-python
 # huggingface_hub
-# Easy install command (make sure you're in your virtual environment first)
-# pip install --upgrade --upgrade-strategy eager llama-cpp-python huggingface_hub
+# Easy installation command (make sure you're in your virtual environment first)
+# pip install --upgrade --upgrade-strategy eager --force-reinstal --no-cache-dir llama-cpp-python huggingface_hub
 # You'll need to create a HuggingFace account and create a token under your account Settings
-# You'll also need some sort of a C compiler, Visual Studio for Windows, gcc or clang for Linux and Git LFS
+# You'll also need some sort of C compiler, Visual Studio for Windows, gcc or clang for Linux and Git LFS
 #   If you're unable to get a C compiler up and running, there's a pre-built wheel version of llama-cpp-python:
 #   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 # Once you've installed all the packages successfully, run the commands:
 # git lfs install
 # huggingface-cli login
-# The huggingface-cli login command will require you to paste your HuggingFace token in, this allows you to pull models from
-# HuggingFace's model database for use in Python code
+#
+# The huggingface-cli login command will require you to paste your HuggingFace token in, this allows you to pull models
+# from HuggingFace's model database for use in Python code
 
 # Import llama-cpp-python and the built-in timeit module
 from llama_cpp import Llama
