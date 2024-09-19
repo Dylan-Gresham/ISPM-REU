@@ -39,6 +39,12 @@ pip install llama-cpp-python huggingface_hub jupyter
 
 Alternatively, executing the `install-cpu.sh` bash script will install the exact versions used in this repository.
 
+This script will install into an existing Python virtual environment, *but* it **will not** create a new virtual 
+environment for you. This script will only work if a virtual environment exists. Additionally, upon exiting the script,
+your shell environment will change from when you executed the script. I.e., if you hadn't sourced the Python virtual
+environment before executing the script, you will still not be sourced into the virtual environment when the script 
+finishes. The packages installed packages will still only be installed to the virtual environment.
+
 ### Installing for CPU and/or GPU Inference
 
 To allow for `llama-cpp-python` to utilize the GPU three conditions need to be met.
@@ -83,6 +89,12 @@ FORCE_CMAKE=1 CMAKE_ARGS="-DGGML_CUDA=on" CUDACXX="/your/path/to/nvcc" pip insta
 
 Alternatively, executing the `install-cpu.sh` bash script will install the exact versions used in this repository with
 the environment flags set automatically for you.
+
+This script will install into an existing Python virtual environment, *but* it **will not** create a new virtual
+environment for you. This script will only work if a virtual environment exists. Additionally, upon exiting the script,
+your shell environment will change from when you executed the script. I.e., if you hadn't sourced the Python virtual
+environment before executing the script, you will still not be sourced into the virtual environment when the script
+finishes. The packages installed packages will still only be installed to the virtual environment.
 
 ### What to do if Your Pip Install Failed 
 
