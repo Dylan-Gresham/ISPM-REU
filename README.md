@@ -51,7 +51,7 @@ To allow for `llama-cpp-python` to utilize the GPU three conditions need to be m
 
 1. You need to own a CUDA compatible GPU
 2. You need to have the Nvidia CUDA GPU Computing Toolkit installed
-3. `Llam-cpp-python` needs to be installed with certain environment variables set
+3. `llama-cpp-python` needs to be installed with certain environment variables set
 
 The aforementioned variables are:
 
